@@ -1,0 +1,21 @@
+{
+    "name": "typescript-project",
+    "version": "1.0.0",
+    "description": "A Project to learn TypeScript",
+    "author": "HypnoticSiege",
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon index.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.7",
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.4.0"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.3",
+        "node-json-db": "^1.4.1",
+        "prerender-node": "^3.4.0"
+    }
+}
