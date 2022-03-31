@@ -6,16 +6,18 @@
     "license": "ISC",
     "main": "index.js",
     "scripts": {
-        "test": "nodemon index.ts"
+        "test": "nodemon index.ts",
+        "start": "ts-node index.ts"
     },
     "devDependencies": {
         "@types/node": "^16.11.7",
         "nodemon": "^2.0.15",
-        "ts-node": "^10.4.0"
+        "ts-node": "^10.7.0"
     },
     "dependencies": {
-        "discord.js": "^12.5.3",
+        "discord.js": "^13.6.0",
         "node-json-db": "^1.4.1",
-        "prerender-node": "^3.4.0"
+        "prerender-node": "^3.4.0",
+        "typescript": "^4.6.3"
     }
 }
